@@ -9,9 +9,21 @@ import ProjectileGenerator from "../projectileGenerator.js";
 import Engine from "../engine.js";
 
 
+// Getting the query params to know player's ship and difficulty setting 
+const urlParams = new URLSearchParams(window.location.search);
+let playerShip = document.querySelector("#player1");
+let difficulty = "easy";
+let avatar = "Pillar Of Autumn";
+difficulty = urlParams.get('level');
+avatar = urlParams.get('avatar');
+if(avatar === "Millennium Falcon"){
+  playerShip = document.querySelector("#player2");
+}else if(avatar === "USS Enterprise"){
+  playerShip = document.querySelector("#player3");
+}
+
 // Creating engine
 const engine = new Engine();
-
 
 // Creating the game world
 let game = new Game(document.createElement("canvas"));
@@ -26,7 +38,7 @@ let player = new Player(
   GAME_CONFIG.PLAYER_HEIGHT,
   "crimson",
   GAME_CONFIG.PLAYER_SPEED,
-  document.querySelector("#player")
+  playerShip
 );
 const playerCollisionHeight = player.height - (2 * (0.4 * player.height));
 const playerCollisionStartY = player.startY + (0.4 * player.height);

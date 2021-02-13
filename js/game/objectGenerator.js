@@ -9,6 +9,7 @@ class ObjectGenerator{
         this.randmoizeShape = randmoizeShape;
 
         // Objects generation maps 
+        this.generationOver = false;
         this.generationCount = 1;
         this.objectMap = {};   // index : object
         this.objectMap[this.generationCount] = this.gameObject;
@@ -91,6 +92,10 @@ class ObjectGenerator{
         setTimeout(()=>{
             this.modifyGameDifficulty(this.waveTwoSpeedFactorNormal, this.waveTwoGenerationFactorNormal);
         }, timeToDifficultySpike*2);
+        // Generation stopped (player won)
+        setTimeout(()=>{
+            this.generationOver = true;
+        }, timeToDifficultySpike*3);
     }
 
     hardDifficulty(){
@@ -103,6 +108,10 @@ class ObjectGenerator{
         setTimeout(()=>{
             this.modifyGameDifficulty(this.waveTwoSpeedFactorHard, this.waveTwoGenerationFactorHard);
         }, timeToDifficultySpike*2);
+        // Generation stopped (player won)
+        setTimeout(()=>{
+            this.generationOver = true;
+        }, timeToDifficultySpike*3);
     }
 
     modifyGameDifficulty(speedFactor, generationFactor){
