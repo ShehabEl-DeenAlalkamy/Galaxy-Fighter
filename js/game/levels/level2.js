@@ -86,6 +86,9 @@ if(difficulty === "intermediate"){
 }else if(difficulty === "hard"){
   rocketGenerator.hardDifficulty();
   lowerObstcaleGenerator.hardDifficulty();
+}else{
+  rocketGenerator.easyDifficulty();
+  lowerObstcaleGenerator.easyDifficulty();
 }
 
 // Used to limit draw damage to every 1000 milliseconds
@@ -95,6 +98,13 @@ let drawDamage = true;
 engine.update(() => {
     // Clearing game world
     game.clearGameWorld();
+
+    // Checking if player won
+    if(rocketGenerator.generationOver){
+      engine.stop();
+      game.playerWon();
+      setTimeout(() => game.goToLevel(3, difficulty, avatar), 3000);
+    }
 
     // Checking game over
     if(player.lifes <= 0){

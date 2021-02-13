@@ -82,6 +82,13 @@ class ObjectGenerator{
         }
     }
 
+    easyDifficulty(){
+        const timeToDifficultySpike = GAME_CONFIG.TIME_FOR_DIFFICULTY_TO_SPIKE * 1000;
+        setTimeout(()=>{
+            this.generationOver = true;
+        }, timeToDifficultySpike*3);
+    }
+
     normalDifficulty(){
         const timeToDifficultySpike = GAME_CONFIG.TIME_FOR_DIFFICULTY_TO_SPIKE * 1000;
         // Difficulty spike one

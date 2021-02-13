@@ -68,6 +68,8 @@ if(difficulty === "intermediate"){
   rocketGenerator.normalDifficulty();
 }else if(difficulty === "hard"){
   rocketGenerator.hardDifficulty();
+}else{
+  rocketGenerator.easyDifficulty();
 }
 
 // Used to limit draw damage to every 1000 milliseconds
@@ -80,8 +82,9 @@ engine.update(() => {
 
     // Checking if player won
     if(rocketGenerator.generationOver){
+        engine.stop();
         game.playerWon();
-        game.goToLevel(level);
+        setTimeout(() => game.goToLevel(2, difficulty, avatar), 3000);
     }
 
     // Checking game over
