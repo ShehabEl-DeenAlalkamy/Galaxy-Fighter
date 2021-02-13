@@ -8,7 +8,13 @@ import Engine from "../engine.js";
 
 
 // Getting the query parameters
-
+let difficulty = "easy";
+let avatar = "";
+const urlParams = new URLSearchParams(window.location.search);
+difficulty = urlParams.get('level');
+avatar = urlParams.get('avatar');
+console.log(difficulty);
+console.log(avatar);
 
 // Creating engine
 const engine = new Engine();

@@ -1,9 +1,10 @@
+console.log();
+
 function selectAvatar(avatarName) {
-    const currentURL = window.location.search;
-    const urlParams = new URLSearchParams(currentURL);
+    const urlParams = new URLSearchParams( window.location.search);
     const level = urlParams.get('level');
-    const nextURL = new URL('http://localhost:5500/levels/level1.html');
-    nextURL.searchParams.set('level', level); 
-    nextURL.searchParams.set('avatar', avatarName); 
-    location.replace(nextURL);
+    //const nextURL = new URL('http://localhost:5500/levels/level1.html');
+    //nextURL.searchParams.set('level', level); 
+    //nextURL.searchParams.set('avatar', avatarName); 
+    location.replace(`../levels/level1.html?level=${level}&avatar=${avatarName}`);
 }
