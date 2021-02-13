@@ -98,7 +98,11 @@ class Game  {
     }
 
     goToLevel(levelNumber, difficultyLevel, avatarName){
-        location.replace(`../levels/level${levelNumber}.html?level=${difficultyLevel}&avatar=${avatarName}`);
+        location.replace(`./level${levelNumber}.html?level=${difficultyLevel}&avatar=${avatarName}`);
+    }
+
+    goToIndex(){
+        location.replace(`../index.html`);
     }
 
     startGameWorld(){

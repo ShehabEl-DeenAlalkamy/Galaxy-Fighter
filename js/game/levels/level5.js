@@ -120,12 +120,14 @@ engine.update(() => {
     if(rocketGenerator.generationOver){
       engine.stop();
       game.playerBeatTheGame();
+      setTimeout(() => game.goToIndex(), 3000);
     }
 
     // Checking game over
     if(player.lifes <= 0){
       engine.stop();
       game.gameOver();
+      setTimeout(() => game.goToIndex(), 3000);
     }
 
     // Checking collisions

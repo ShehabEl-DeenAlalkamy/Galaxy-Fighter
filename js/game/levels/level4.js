@@ -127,6 +127,7 @@ engine.update(() => {
     if(player.lifes <= 0){
       engine.stop();
       game.gameOver();
+      setTimeout(() => game.goToIndex(), 3000);
     }
 
     // Checking collisions
