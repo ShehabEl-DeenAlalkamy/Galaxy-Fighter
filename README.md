@@ -20,7 +20,7 @@ The implementation of the game is pure (Vanilla) Javascript with no additional l
 
 ![moode](https://user-images.githubusercontent.com/64443382/107883564-5f046380-6ef8-11eb-8aee-4080b8edcc3d.png)
 
-for each level, we configure it's speed and more obstacles,rockets are generated.
+For each level, we configure it's speed and more obstacles,rockets are generated.
 
 ### Characters
 
@@ -42,7 +42,7 @@ Main menu has start game, configuring options and showing how to play.
 
 ## Play online
 
-You can play our game online using [this link]("soon")
+You can play our game online using ![this link](https://warm-savannah-56014.herokuapp.com/#)
 
 Enjoy the game.
 # Developers
