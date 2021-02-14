@@ -6,7 +6,7 @@ document.addEventListener("mousemove", (e) => {
     let x = e.pageX;
     let y = e.pageY;
 
-    CURSOR.style.top = y + "px";
+    CURSOR.style.top = y + 30 + "px";     //adding an offset to accuratley position the cursor over the rocket
     CURSOR.style.left = x + "px";
     CURSOR.style.display = "block";
 
