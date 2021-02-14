@@ -12,7 +12,7 @@ heights. As the time passes, the level becomes more difficult and more obstacles
 are generated and needed to be avoided. Each successful pass through a pair of
 obstacles awards the player one life. Colliding with an obstacle or the ground takes one life.
 
-## Technicalilty
+## Technicality
 
 The implementation of the game is pure (Vanilla) Javascript with no additional libraries,HTML5 and CSS3.
 
