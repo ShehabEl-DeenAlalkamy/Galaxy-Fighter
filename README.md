@@ -46,7 +46,7 @@ You can play our game online using [this link]("soon")
 
 Enjoy the game.
 # Developers
-1-Ahmed Khaled
-2-Shehab El deen
-3-Mohamed El beshlawy
+1-Ahmed Khaled\
+2-Shehab El deen\
+3-Mohamed El beshlawy\
 4-Ahmed Zakaria
