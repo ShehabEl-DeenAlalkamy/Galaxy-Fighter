@@ -1,5 +1,5 @@
 # Galaxy Fighter
-Your leisure will now become a fight-filled experience, that you are for sure going to enjoy. With the adventure coming your way in this Galaxy Fighter game, fun with thrill is guaranteed! Have the win-win spirit and get ready to feel goosebumps, because you are the GALAXY JET FIGHTER.
+Your leisure will now become a fight-filled experience, that you are for sure going to enjoy. With the adventure coming your way in this Galaxy Fighter game, fun with thrill is guaranteed! Have the win-win spirit and get ready to feel goosebumps, because you are the GALAXY FIGHTER.
 
 ![gameplay](https://user-images.githubusercontent.com/64443382/107883556-5b70dc80-6ef8-11eb-9d65-55a1e150cabb.png)
 
