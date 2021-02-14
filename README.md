@@ -1,7 +1,7 @@
 # Galaxy Fighter
 Your leisure will now become a fight-filled experience, that you are for sure going to enjoy. With the adventure coming your way in this Galaxy Fighter game, fun with thrill is guaranteed! Have the win-win spirit and get ready to feel goosebumps, because you are the GALAXY JET FIGHTER.
 
-![game](assets/images/gameplay.png)
+![gameplay](https://user-images.githubusercontent.com/64443382/107883556-5b70dc80-6ef8-11eb-9d65-55a1e150cabb.png)
 
 ## Gameplay
 
@@ -18,13 +18,13 @@ The implementation of the game is pure (Vanilla) Javascript with no additional l
 
 ### Difficulty Modes
 
-![difficulty](assets/images/moode.png)
+![moode](https://user-images.githubusercontent.com/64443382/107883564-5f046380-6ef8-11eb-8aee-4080b8edcc3d.png)
 
 for each level, we configure it's speed and more obstacles,rockets are generated.
 
 ### Characters
 
-![ironman](assets/images/characters.png)
+![characters](https://user-images.githubusercontent.com/64443382/107883551-5744bf00-6ef8-11eb-8ad3-f6f1e3896c8f.png)
 
 You can choose among different characters
 
@@ -34,7 +34,7 @@ You can choose among different characters
 
 ### Main menu
 
-![main-menu](assets/images/mainmenu.png)
+![mainmenu](https://user-images.githubusercontent.com/64443382/107883560-5dd33680-6ef8-11eb-82a1-f939ddc99441.png)
 
 Main menu has start game, configuring options and showing how to play.
 
@@ -45,9 +45,8 @@ Main menu has start game, configuring options and showing how to play.
 You can play our game online using [this link]("soon")
 
 Enjoy the game.
-### Developers
-
-Ahmed Khaled
-Shehab El deen
-Mohamed El beshlawy
-Ahmed Zakaria 
+# Developers
+1-Ahmed Khaled
+2-Shehab El deen
+3-Mohamed El beshlawy
+4-Ahmed Zakaria
