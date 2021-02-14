@@ -34,7 +34,7 @@ You can choose among different characters
 
 ### Main menu
 
-![mainmenu](https://user-images.githubusercontent.com/64443382/107883560-5dd33680-6ef8-11eb-82a1-f939ddc99441.png)
+![gamee](https://user-images.githubusercontent.com/64443382/107885801-f7a0e080-6f04-11eb-8a51-ef44dcd6f9d1.png)
 
 Main menu has start game, configuring options and showing how to play.
 
