@@ -36,21 +36,21 @@
         </div>
         <div class="planets" id="planet-purple" relative="6"><img src="./assets/images/planets/planet-purple.png"></div>
         <div class="container-btns">
-            <a href="./views/game-mode.html" class="btn" onmouseenter="mouseEnterSound()" onclick="clickSound()">
+            <a href="#" class="btn" id="game-mode" onmouseenter="mouseEnterSound()" onclick="clickSound(event)">
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
                 Start Game
             </a>
-            <a href="./views/howToPlay.html" class="btn" onmouseenter="mouseEnterSound()" onclick="clickSound()">
+            <a href="#" class="btn" id="how-to-play" onmouseenter="mouseEnterSound()" onclick="clickSound(event)">
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
                 How to Play
             </a>
-            <a href="./views/credits.html" class="btn" onmouseenter="mouseEnterSound()" onclick="clickSound()">
+            <a href="#" class="btn" id="credits" onmouseenter="mouseEnterSound()" onclick="clickSound(event)">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -66,6 +66,8 @@
 
     <script src="./js/cursorControl.js"></script>
     <script src="./js/parallax.js"></script>
+    <script src="./js/indexRedirection.js"></script>
+    <script src="./js/redirectBtn.js"></script>
     <script src="./js/gameSound.js"></script>
 </body>
 
