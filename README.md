@@ -14,19 +14,19 @@ obstacles awards the player one life. Colliding with an obstacle or the ground t
 
 ## Technicalilty
 
-The implementation of the game is pure (Vanilla) Javascript with no additional libraries,HTML5 and CSS .
+The implementation of the game is pure (Vanilla) Javascript with no additional libraries,HTML5 and CSS3.
 
 ### Difficulty Modes
 
 ![moode](https://user-images.githubusercontent.com/64443382/107883564-5f046380-6ef8-11eb-8aee-4080b8edcc3d.png)
 
-For each level, we configure it's speed and more obstacles,rockets are generated.
+For each level, we configure it's speed and more obstacles, rockets are generated.
 
 ### Characters
 
 ![characters](https://user-images.githubusercontent.com/64443382/107883551-5744bf00-6ef8-11eb-8ad3-f6f1e3896c8f.png)
 
-You can choose among different characters
+You can choose among different characters.
 
 
 
@@ -46,7 +46,7 @@ You can play our game online using [this link](https://warm-savannah-56014.herok
 
 Enjoy the game.
 # Developers
-1-Ahmed Khaled\
-2-Shehab El Deen Alalkamy\
-3-Mohamed El beshlawy\
-4-Ahmed Zakaria
+1- Ahmed Khaled\
+2- Shehab El Deen Alalkamy\
+3- Mohamed El beshlawy\
+4- Ahmed Zakaria
