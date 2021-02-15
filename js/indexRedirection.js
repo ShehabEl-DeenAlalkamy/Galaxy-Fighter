@@ -9,4 +9,4 @@ function redirectHowToPlay() { HOW_TO_PLAY.setAttribute("href", `./views/howToPl
 
 function redirectCredits() { CREDITS.setAttribute("href", `./views/credits.html`); }
 
-function redirectBack() { BACK.setAttribute("href", `/`); }
+function redirectBack() { BACK.setAttribute("href", `../home.html`); }
