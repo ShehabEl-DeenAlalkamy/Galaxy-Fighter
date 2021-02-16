@@ -42,7 +42,7 @@ Main menu has start game, configuring options and showing how to play.
 
 ## Play online
 
-You can play our game online using [this link](https://warm-savannah-56014.herokuapp.com/#)
+You can play our game online using [this link](https://galaxy-fighter-project.herokuapp.com/)
 
 Enjoy the game.
 # Developers
